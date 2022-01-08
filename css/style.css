@@ -1,0 +1,168 @@
+body{
+    padding:0px;
+    margin:0px;
+    background-color:rgb(255, 255, 255);
+}
+.header{
+    background-color:whitesmoke;
+    border:1px solid rgb(134, 126, 126);
+    border:outset;
+    position: fixed;
+  top: 0;
+  width: 100%;
+ 
+}
+.header nav a{
+    text-decoration:none;
+    list-style:none;
+    font-size:25px;
+   
+}
+.header nav a li{
+    color: black;
+    display:inline-block;
+    margin-right:55px;
+    color:rgb(104, 36, 36);
+    z-index: -1;
+
+}
+.header nav ul{
+   margin-left:250px;
+}
+.logo img{
+    width:100px;
+    
+}
+.navbar{
+    position:absolute;
+    left:250px;
+    top: 20px;
+   
+}
+
+
+.window{
+    width:750px;
+    border:2px solid rgb(12, 22, 78);
+    height:400px;
+    background-color: rgb(255, 255, 255);
+   
+    border-radius:30px;
+    box-shadow:8px 5px 2px 2px inset;
+    z-index:-1;
+    position: fixed;
+}
+.img{
+    position:absolute;
+    top:132px;
+    left:446px;
+    z-index:-1;
+}
+.img img{
+    position:fixed;
+    z-index:-1;
+}
+hr{
+    border:1px solid bisque;
+}
+p{
+     padding-top:61px;
+    text-align:left;
+    font-size:50px;
+    margin-left:30px;
+    
+}
+h1{
+    font-size:25px;
+    text-align:center;
+    padding:50px;
+    background-color:black;
+    color:whitesmoke;
+    
+}
+.btn a{
+    text-decoration:none;
+    color: white;
+    font-weight:bold;
+}
+.btn{
+    background-color:black;
+    border:2px dashed whitesmoke;
+    width:120px;
+    padding:20px;
+    margin:0 auto;
+    text-align: center;
+    font-size:10px;
+}
+.section{
+    padding:50px;
+    width:750px;
+    position:absolute;
+    top:0;
+    left:736px;
+}
+.btn:hover{
+    background-color:rgb(12, 255, 4);
+    cursor: pointer;
+    color:rgb(0, 0, 0);
+}
+h2{
+    color:30px;
+    text-align: center;
+    text-decoration:underline;
+    color: rgb(255, 254, 254);
+    background-color:black;
+    padding: 20px;
+    margin-top:250px;
+}
+.section_two{
+    display:flex;
+    padding:20px;
+  
+}
+.one{
+    background-color: burlywood;
+    border:1px solid black;
+    box-shadow:10px 5px 2px;
+    width:200px;
+    height:150px;
+    margin:0 auto;
+     
+}
+.one img{
+    width:200px;
+    height:150px;
+}
+.section_three{
+    display:flex;
+    padding:20px;
+}
+.section_three p{
+    font-size:15px;
+    text-align:center;
+    padding:5px;
+    background-color: coral;
+   
+}
+.section_overflow{
+    width:743px;
+    border:5px solid rgb(160, 159, 159);
+    height:400px;
+    overflow: scroll;
+    
+    
+}
+.section_overflow img{
+ margin-left:110px;
+}
+.social{
+    position:absolute;
+    left:1150px;
+    
+    
+}
+.social_section{
+    position:fixed;
+    top:350px;
+    left:350px;
+}
